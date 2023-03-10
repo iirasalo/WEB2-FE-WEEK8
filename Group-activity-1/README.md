@@ -6,7 +6,7 @@ Create a new folder e.g. `task1`, and run the following commands:
 
 ```sh
 npm init -y
-npm install express express-handlebars
+
 ```
 
 ## Basic Usage

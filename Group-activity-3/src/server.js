@@ -25,19 +25,19 @@ app.get('/yell', (req, res) => {
     title: 'Yell',
 
     // This `message` will be transformed by our `yell()` helper.
-    message: 'hello world',
+    message: 'Iiro-setä on HYVIN vihainen!!',
   });
 });
 
 app.get('/exclaim', (req, res) => {
   res.render('yell', {
     title: 'Exclaim',
-    message: 'hello world',
+    message: 'Iira-setä on HYVIN vihainen!',
 
     // This overrides the default `yell()` helper.
     helpers: {
       yell(msg) {
-        return msg + '!!!';
+        return msg + ' !!!';
       },
     },
   });
